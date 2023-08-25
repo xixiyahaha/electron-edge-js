@@ -70,7 +70,13 @@ if "%3" equ "6.0.0" (
     SET target=16.17.1
 ) else if "%3" equ "23.0.0" (
     SET target=18.12.1
-)else (
+) else if "%3" equ "24.0.0" (
+    SET target=18.13.0
+) else if "%3" equ "25.0.0" (
+    SET target=18.15.0
+) else if "%3" equ "26.0.0" (
+    SET target=18.16.0
+) else (
     echo edge-electron-js does not support Electron %3.
     exit /b -1
 )
