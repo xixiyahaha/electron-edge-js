@@ -1,3 +1,6 @@
+# 说明
+原版本最近没有更新，不支持Electron 23.X以后版本。于是自己fork了一个版本，支持Electron 23.X以后版本。
+
 # .NET and Node.js in-process on Electron
 
 This is a fork of [edge-js](https://github.com/agracio/edge-js) adapted to support [Electron](https://github.com/electron/electron/).
