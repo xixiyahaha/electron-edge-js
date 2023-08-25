@@ -1,5 +1,7 @@
 # 说明
-原版本最近没有更新，不支持Electron 23.X以后版本。于是自己fork了一个版本，支持Electron 23.X以后版本。
+原版本最近没有更新，不支持Electron 23.x以后版本。于是自己fork了一个版本，支持Electron 23.x以后版本。
+
+已支持到26.x。
 
 # .NET and Node.js in-process on Electron
 
@@ -19,6 +21,9 @@ Compatible with
 - Electron 21.x - Node.js v16.16.0
 - Electron 22.x - Node.js v16.17.1
 - Electron 23.x - Node.js v18.12.1
+- Electron 24.x - Node.js v18.13.0
+- Electron 25.x - Node.js v18.15.0
+- Electron 26.x - Node.js v18.16.0
 
 Usage is the same as edge or edge-js, replace `require('edge-js')` with `require('electron-edge-js')`:
 

@@ -15,6 +15,7 @@ else {
 }
 
 try_get(0);
+try_get(1);
 
 function try_get(i) {
 	console.log('Trying download from', urls[i]);
